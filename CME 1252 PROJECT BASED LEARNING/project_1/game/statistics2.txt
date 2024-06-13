@@ -1,0 +1,14 @@
+English#15#2
+Computer#0#1
+Mathematics#0#0
+History#8#5
+Mathemathic#1#23
+Technology#7#5
+Science#4#6
+Mehmet TARAK#Istanbul#0#31
+Canan KAYA#Izmir#0#39
+Ece YILMAZ#Ankara#0#61
+Kaan Adasoglu#Bilecik#5#21
+Serhat Ozdemir#Giresun#45#92
+Mehmet Devrekoglu#Balikesir#3#30
+Fuat Sezgin#Ä°stanbul#3#32

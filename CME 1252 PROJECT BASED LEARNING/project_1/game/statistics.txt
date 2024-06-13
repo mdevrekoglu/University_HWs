@@ -1,0 +1,32 @@
+English#6#4
+Computer#9#3
+Mathematics#2#2
+Mathermatics#0#0
+History#0#5
+Physics#0#0
+Literature#0#0
+Biology#0#0
+Astronomy#0#0
+Music#0#0
+Turkish#0#0
+Mehmet TARAK#Istanbul#0#31
+Canan KAYA#Izmir#7#39
+Ece YILMAZ#Ankara#1#61
+Ahmet GUR#Izmir#0#22
+Aziz KAYA#Izmir#1#21
+Bayram POYRAZ#Izmir#0#51
+Funda NAZLI#Izmir#0#40
+Murat ASLAN#Istanbul#0#28
+Aslan YILDIZ#Izmir#0#26
+Burak OLCAY#Ankara#0#27
+Sefa DURAN#Bursa#0#25
+Bayram LEYLEK#Izmir#0#52
+David Faruk ABADI#Hatay#0#34
+Senol SERPEN#Bursa#0#32
+Necdet RUHI#Bursa#0#50
+Can KIZILKAYA#Istanbul#5#21
+Ege CELIK#Istanbul#0#20
+Sergen ZORLU#Denizli#0#22
+Ali VURAL#Istanbul#0#66
+Alperen INCE#Izmir#0#21
+Alper SALLI#Izmir#0#21

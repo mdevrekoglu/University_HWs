@@ -1,0 +1,4 @@
+library verilog;
+use verilog.vl_types.all;
+entity ALU_2020510014_2020510028_2021510022_vlg_vec_tst is
+end ALU_2020510014_2020510028_2021510022_vlg_vec_tst;

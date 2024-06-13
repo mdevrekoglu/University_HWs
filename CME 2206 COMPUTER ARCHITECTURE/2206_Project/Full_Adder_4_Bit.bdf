@@ -1,0 +1,407 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 32 96 200 112)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "A[3..0]" (rect 5 0 39 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 32 128 200 144)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "B[3..0]" (rect 5 0 39 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 40 176 216 192)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "Sum_out[3..0]" (rect 90 0 159 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 40 216 216 232)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "Carry_out" (rect 90 0 139 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(symbol
+	(rect 800 16 960 112)
+	(text "Full_Adder" (rect 5 0 66 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 80 25 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A_in" (rect 0 0 25 14)(font "Arial" (font_size 8)))
+		(text "A_in" (rect 21 27 46 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "B_in" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "B_in" (rect 21 43 45 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Carry_in" (rect 0 0 48 14)(font "Arial" (font_size 8)))
+		(text "Carry_in" (rect 21 59 69 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 160 32)
+		(output)
+		(text "Sum_out" (rect 0 0 49 14)(font "Arial" (font_size 8)))
+		(text "Sum_out" (rect 90 27 139 41)(font "Arial" (font_size 8)))
+		(line (pt 160 32)(pt 144 32))
+	)
+	(port
+		(pt 160 48)
+		(output)
+		(text "Carry_out" (rect 0 0 56 14)(font "Arial" (font_size 8)))
+		(text "Carry_out" (rect 83 43 139 57)(font "Arial" (font_size 8)))
+		(line (pt 160 48)(pt 144 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 144 80))
+	)
+)
+(symbol
+	(rect 800 136 960 232)
+	(text "Full_Adder" (rect 5 0 66 14)(font "Arial" (font_size 8)))
+	(text "inst1" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A_in" (rect 0 0 25 14)(font "Arial" (font_size 8)))
+		(text "A_in" (rect 21 27 46 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "B_in" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "B_in" (rect 21 43 45 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Carry_in" (rect 0 0 48 14)(font "Arial" (font_size 8)))
+		(text "Carry_in" (rect 21 59 69 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 160 32)
+		(output)
+		(text "Sum_out" (rect 0 0 49 14)(font "Arial" (font_size 8)))
+		(text "Sum_out" (rect 90 27 139 41)(font "Arial" (font_size 8)))
+		(line (pt 160 32)(pt 144 32))
+	)
+	(port
+		(pt 160 48)
+		(output)
+		(text "Carry_out" (rect 0 0 56 14)(font "Arial" (font_size 8)))
+		(text "Carry_out" (rect 83 43 139 57)(font "Arial" (font_size 8)))
+		(line (pt 160 48)(pt 144 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 144 80))
+	)
+)
+(symbol
+	(rect 800 256 960 352)
+	(text "Full_Adder" (rect 5 0 66 14)(font "Arial" (font_size 8)))
+	(text "inst2" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A_in" (rect 0 0 25 14)(font "Arial" (font_size 8)))
+		(text "A_in" (rect 21 27 46 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "B_in" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "B_in" (rect 21 43 45 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Carry_in" (rect 0 0 48 14)(font "Arial" (font_size 8)))
+		(text "Carry_in" (rect 21 59 69 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 160 32)
+		(output)
+		(text "Sum_out" (rect 0 0 49 14)(font "Arial" (font_size 8)))
+		(text "Sum_out" (rect 90 27 139 41)(font "Arial" (font_size 8)))
+		(line (pt 160 32)(pt 144 32))
+	)
+	(port
+		(pt 160 48)
+		(output)
+		(text "Carry_out" (rect 0 0 56 14)(font "Arial" (font_size 8)))
+		(text "Carry_out" (rect 83 43 139 57)(font "Arial" (font_size 8)))
+		(line (pt 160 48)(pt 144 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 144 80))
+	)
+)
+(symbol
+	(rect 800 376 960 472)
+	(text "Full_Adder" (rect 5 0 66 14)(font "Arial" (font_size 8)))
+	(text "inst3" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A_in" (rect 0 0 25 14)(font "Arial" (font_size 8)))
+		(text "A_in" (rect 21 27 46 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "B_in" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "B_in" (rect 21 43 45 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Carry_in" (rect 0 0 48 14)(font "Arial" (font_size 8)))
+		(text "Carry_in" (rect 21 59 69 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 160 32)
+		(output)
+		(text "Sum_out" (rect 0 0 49 14)(font "Arial" (font_size 8)))
+		(text "Sum_out" (rect 90 27 139 41)(font "Arial" (font_size 8)))
+		(line (pt 160 32)(pt 144 32))
+	)
+	(port
+		(pt 160 48)
+		(output)
+		(text "Carry_out" (rect 0 0 56 14)(font "Arial" (font_size 8)))
+		(text "Carry_out" (rect 83 43 139 57)(font "Arial" (font_size 8)))
+		(line (pt 160 48)(pt 144 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 144 80))
+	)
+)
+(symbol
+	(rect 664 88 696 120)
+	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
+	(text "inst7" (rect 3 21 26 33)(font "Arial" )(invisible))
+	(port
+		(pt 16 0)
+		(output)
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(line (pt 16 8)(pt 16 0))
+	)
+	(drawing
+		(line (pt 8 8)(pt 16 16))
+		(line (pt 16 16)(pt 24 8))
+		(line (pt 8 8)(pt 24 8))
+	)
+)
+(connector
+	(text "Sum_out[0]" (rect 970 32 1026 44)(font "Arial" ))
+	(pt 960 48)
+	(pt 1016 48)
+)
+(connector
+	(text "Sum_out[1]" (rect 970 152 1026 164)(font "Arial" ))
+	(pt 960 168)
+	(pt 1016 168)
+)
+(connector
+	(text "Sum_out[2]" (rect 970 272 1026 284)(font "Arial" ))
+	(pt 960 288)
+	(pt 1016 288)
+)
+(connector
+	(text "Sum_out[3]" (rect 970 392 1026 404)(font "Arial" ))
+	(pt 960 408)
+	(pt 1008 408)
+)
+(connector
+	(text "Carry_out" (rect 970 408 1019 420)(font "Arial" ))
+	(pt 960 424)
+	(pt 1008 424)
+)
+(connector
+	(pt 960 64)
+	(pt 976 64)
+)
+(connector
+	(pt 976 64)
+	(pt 976 128)
+)
+(connector
+	(pt 976 128)
+	(pt 760 128)
+)
+(connector
+	(pt 760 128)
+	(pt 760 200)
+)
+(connector
+	(pt 760 200)
+	(pt 800 200)
+)
+(connector
+	(pt 960 184)
+	(pt 976 184)
+)
+(connector
+	(pt 976 248)
+	(pt 976 184)
+)
+(connector
+	(pt 976 248)
+	(pt 760 248)
+)
+(connector
+	(pt 760 248)
+	(pt 760 320)
+)
+(connector
+	(pt 760 320)
+	(pt 800 320)
+)
+(connector
+	(pt 960 304)
+	(pt 976 304)
+)
+(connector
+	(pt 976 304)
+	(pt 976 368)
+)
+(connector
+	(pt 976 368)
+	(pt 760 368)
+)
+(connector
+	(pt 760 368)
+	(pt 760 440)
+)
+(connector
+	(pt 760 440)
+	(pt 800 440)
+)
+(connector
+	(text "A[0]" (rect 706 32 726 44)(font "Arial" ))
+	(pt 800 48)
+	(pt 696 48)
+)
+(connector
+	(text "B[0]" (rect 346 48 366 60)(font "Arial" ))
+	(pt 336 64)
+	(pt 800 64)
+)
+(connector
+	(text "B[1]" (rect 346 168 366 180)(font "Arial" ))
+	(pt 336 184)
+	(pt 800 184)
+)
+(connector
+	(text "B[2]" (rect 338 288 358 300)(font "Arial" ))
+	(pt 328 304)
+	(pt 800 304)
+)
+(connector
+	(text "B[3]" (rect 338 408 358 420)(font "Arial" ))
+	(pt 328 424)
+	(pt 800 424)
+)
+(connector
+	(text "A[1]" (rect 706 152 726 164)(font "Arial" ))
+	(pt 800 168)
+	(pt 696 168)
+)
+(connector
+	(text "A[3]" (rect 706 392 726 404)(font "Arial" ))
+	(pt 800 408)
+	(pt 696 408)
+)
+(connector
+	(text "A[2]" (rect 706 272 726 284)(font "Arial" ))
+	(pt 800 288)
+	(pt 696 288)
+)
+(connector
+	(pt 680 80)
+	(pt 800 80)
+)
+(connector
+	(pt 680 80)
+	(pt 680 88)
+)

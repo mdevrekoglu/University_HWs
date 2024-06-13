@@ -1,0 +1,23 @@
+Configration:
+en
+conf t
+hostname fbtf
+int fa0/0
+enable password 123456789
+line vty  0 4
+login local
+transport input ssh
+username fbtf password 123456789
+ip domain-name fbtf
+crypto key generate rsa
+1024
+do wr
+exit
+
+Trial on computer:
+ssh -l sbff 192.168.6.1
+123456789
+en
+123456789
+configure terminal
+do sh ip int br

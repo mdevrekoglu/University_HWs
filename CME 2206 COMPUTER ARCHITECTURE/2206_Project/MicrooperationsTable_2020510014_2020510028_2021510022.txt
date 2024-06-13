@@ -1,0 +1,42 @@
+Fetch           T0:        IR <- IM[PC]
+                T1:        PC <- PC + 1
+Decode          T2:        D0,...,D15 <- Decode IR(6-9), Q <- IR(10),
+                        Rd <- IR(4-5), S1 <- IR(2-3), S2 <- IR(0-1), S1S2 <-(0-3)
+
+Arithmetic & Logic OP
+DBL            D0T3:        Rd <- S1 * 2, SC <- 0
+DBT            D1T3:        Rd <- S1 / 2, SC <- 0
+ADD            D2T3:        Rd <- S1 + S2, SC <- 0
+INC            D3T3:        Rd <- S1 + 1, SC <- 0
+AND            D4T3:        Rd <- S1 & S2, SC <- 0
+NOT            D5T3:        Rd <- NOT S1, SC <- 0
+XOR            D6T3:     Rd <- S1 ^ S2, SC <- 0
+
+Data Transfer
+ST          D8Q'T3:    AR <- S1S2
+            D8Q'T4:    DM[AR] <- Rd, Sc <- 0
+            D8QT3:    AR <- Rd
+            D8QT4:    DM[AR] <- S1S2, Sc <- 0
+LD          D9Q'T3:    Rd <- S1S2, Sc <- 0
+            D9QT3:    AR <- S1S2
+            D9QT4:    Rd <- DM[AR], Sc <- 0
+IO          D10Q'T3    OUTR <- S1, Sc <- 0
+            D10QT3:    INR <- input
+            D10QT4:    Rd <- INR, Sc <- 0
+TSF         D11T3:    Rd <- S1, Sc <- 0
+
+Program Control
+JMP         D12Q'T3:    PC <- IR(0-4)
+            D12QVT3:    PC <- IR(0-4)
+            D12T4:    SC <- 0
+CAL         D13FT3:    SC <- 0
+            D13F'T3:    SP <- SP + 1
+            D13T4:    SM[SP] <- PC
+            D13T5:    PC <- IR(0-4), Sc <- 0
+RET         D14ET3:    Sc <- 0
+            D14E'T3:    PC <- SM[SP]
+            D14T4:    SP <- SP - 1, Sc <- 0
+JMR         D15T3:    PC <- PC + IR(0-3), Sc <- 0
+
+Other
+HLT         D7T2: S <- 0

@@ -1,0 +1,113 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLK_Register'
+Slack : -5.284
+TNS   : -213.226
+
+Type  : Slow 1200mV 85C Model Setup 'CLK_Memory'
+Slack : -4.904
+TNS   : -55.644
+
+Type  : Slow 1200mV 85C Model Setup 'Instruction_Register:inst15|lpm_counter:LPM_COUNTER_component|cntr_jdj:auto_generated|counter_reg_bit[6]'
+Slack : -4.798
+TNS   : -4.798
+
+Type  : Slow 1200mV 85C Model Hold 'CLK_Register'
+Slack : -0.583
+TNS   : -0.583
+
+Type  : Slow 1200mV 85C Model Hold 'CLK_Memory'
+Slack : -0.101
+TNS   : -0.101
+
+Type  : Slow 1200mV 85C Model Hold 'Instruction_Register:inst15|lpm_counter:LPM_COUNTER_component|cntr_jdj:auto_generated|counter_reg_bit[6]'
+Slack : 0.200
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK_Memory'
+Slack : -3.000
+TNS   : -68.220
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK_Register'
+Slack : -3.000
+TNS   : -50.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Instruction_Register:inst15|lpm_counter:LPM_COUNTER_component|cntr_jdj:auto_generated|counter_reg_bit[6]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Setup 'CLK_Register'
+Slack : -4.597
+TNS   : -187.520
+
+Type  : Slow 1200mV 0C Model Setup 'CLK_Memory'
+Slack : -4.311
+TNS   : -47.693
+
+Type  : Slow 1200mV 0C Model Setup 'Instruction_Register:inst15|lpm_counter:LPM_COUNTER_component|cntr_jdj:auto_generated|counter_reg_bit[6]'
+Slack : -4.243
+TNS   : -4.243
+
+Type  : Slow 1200mV 0C Model Hold 'CLK_Register'
+Slack : -0.566
+TNS   : -0.566
+
+Type  : Slow 1200mV 0C Model Hold 'CLK_Memory'
+Slack : -0.118
+TNS   : -0.118
+
+Type  : Slow 1200mV 0C Model Hold 'Instruction_Register:inst15|lpm_counter:LPM_COUNTER_component|cntr_jdj:auto_generated|counter_reg_bit[6]'
+Slack : 0.161
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK_Memory'
+Slack : -3.000
+TNS   : -68.220
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK_Register'
+Slack : -3.000
+TNS   : -50.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Instruction_Register:inst15|lpm_counter:LPM_COUNTER_component|cntr_jdj:auto_generated|counter_reg_bit[6]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Setup 'CLK_Register'
+Slack : -2.599
+TNS   : -102.695
+
+Type  : Fast 1200mV 0C Model Setup 'Instruction_Register:inst15|lpm_counter:LPM_COUNTER_component|cntr_jdj:auto_generated|counter_reg_bit[6]'
+Slack : -2.584
+TNS   : -2.584
+
+Type  : Fast 1200mV 0C Model Setup 'CLK_Memory'
+Slack : -2.441
+TNS   : -15.704
+
+Type  : Fast 1200mV 0C Model Hold 'CLK_Register'
+Slack : -0.439
+TNS   : -0.560
+
+Type  : Fast 1200mV 0C Model Hold 'CLK_Memory'
+Slack : -0.198
+TNS   : -0.198
+
+Type  : Fast 1200mV 0C Model Hold 'Instruction_Register:inst15|lpm_counter:LPM_COUNTER_component|cntr_jdj:auto_generated|counter_reg_bit[6]'
+Slack : 0.095
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK_Register'
+Slack : -3.000
+TNS   : -52.563
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK_Memory'
+Slack : -3.000
+TNS   : -36.615
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Instruction_Register:inst15|lpm_counter:LPM_COUNTER_component|cntr_jdj:auto_generated|counter_reg_bit[6]'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

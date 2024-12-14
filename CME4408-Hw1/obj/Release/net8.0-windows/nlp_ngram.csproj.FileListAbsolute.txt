@@ -1,0 +1,16 @@
+C:\Users\mehmet\source\repos\nlp_ngram\bin\Release\net8.0-windows\nlp_ngram.exe
+C:\Users\mehmet\source\repos\nlp_ngram\bin\Release\net8.0-windows\nlp_ngram.deps.json
+C:\Users\mehmet\source\repos\nlp_ngram\bin\Release\net8.0-windows\nlp_ngram.runtimeconfig.json
+C:\Users\mehmet\source\repos\nlp_ngram\bin\Release\net8.0-windows\nlp_ngram.dll
+C:\Users\mehmet\source\repos\nlp_ngram\bin\Release\net8.0-windows\nlp_ngram.pdb
+C:\Users\mehmet\source\repos\nlp_ngram\obj\Release\net8.0-windows\nlp_ngram.Form1.resources
+C:\Users\mehmet\source\repos\nlp_ngram\obj\Release\net8.0-windows\nlp_ngram.csproj.GenerateResource.cache
+C:\Users\mehmet\source\repos\nlp_ngram\obj\Release\net8.0-windows\nlp_ngram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mehmet\source\repos\nlp_ngram\obj\Release\net8.0-windows\nlp_ngram.AssemblyInfoInputs.cache
+C:\Users\mehmet\source\repos\nlp_ngram\obj\Release\net8.0-windows\nlp_ngram.AssemblyInfo.cs
+C:\Users\mehmet\source\repos\nlp_ngram\obj\Release\net8.0-windows\nlp_ngram.csproj.CoreCompileInputs.cache
+C:\Users\mehmet\source\repos\nlp_ngram\obj\Release\net8.0-windows\nlp_ngram.dll
+C:\Users\mehmet\source\repos\nlp_ngram\obj\Release\net8.0-windows\refint\nlp_ngram.dll
+C:\Users\mehmet\source\repos\nlp_ngram\obj\Release\net8.0-windows\nlp_ngram.pdb
+C:\Users\mehmet\source\repos\nlp_ngram\obj\Release\net8.0-windows\nlp_ngram.genruntimeconfig.cache
+C:\Users\mehmet\source\repos\nlp_ngram\obj\Release\net8.0-windows\ref\nlp_ngram.dll
